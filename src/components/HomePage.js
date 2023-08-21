@@ -16,7 +16,7 @@ const HomePage = () => {
           <span className="">Your Go-To Event Platform</span>
           <div className="login-signup">
             <Link to="/login" className="btn btn-primary ">Login</Link>
-            <a href="/register" className="btn btn-warning ">Sign Up</a>
+            <Link to="/register" className="btn btn-warning ">Sign Up</Link>
           </div>
         </div>
       </nav>
