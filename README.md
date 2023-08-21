@@ -4,6 +4,9 @@
 
 Eventify is an event management application that allows you to create, manage, and discover upcoming events. This README provides comprehensive instructions for installing, testing, running, and understanding the app.
 
+[Visit My App](https://eventify-k3x1.onrender.com/)
+
+
 ## Table of Contents
 - [System Architecture Overview](#system-architecture-overview)
 - [System Requirements Specification](#System-requirements-specification)
