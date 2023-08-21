@@ -1,5 +1,6 @@
 import React from 'react';
 import splash from "../images/transparent.png"
+import { Link } from 'react-router-dom';
 import './HomePage.css';
 
 
@@ -14,7 +15,7 @@ const HomePage = () => {
           <a className="navbar-brand logo" href="#">Eventify</a>
           <span className="">Your Go-To Event Platform</span>
           <div className="login-signup">
-            <a href="/login" className="btn btn-primary ">Login</a>
+            <Link to="/login" className="btn btn-primary ">Login</Link>
             <a href="/register" className="btn btn-warning ">Sign Up</a>
           </div>
         </div>
