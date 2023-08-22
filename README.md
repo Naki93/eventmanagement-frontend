@@ -66,47 +66,64 @@ The Event Management System's architecture consists of several interconnected co
 
 - **Customization:** While Bootstrap provides default styles, I can customize the theme to match my application's branding.
 
-### Event Management System - System Requirements Specification
-1. Introduction
-The Event Management System is a web application designed to facilitate event organization, and management. It allows administrators to create, edit, and manage events, while users can view event details for upcoming events. The application aims to simplify event coordination and provide a user-friendly experience for both administrators and users.
+# Event Management System - System Requirements Specification
 
-2. Target Users
-Administrators: Responsible for creating, editing, and managing events. They benefit from efficient event management tools.
-Users: Individuals interested in attending events. They can view event details, and benefit from obtaining easy access to upcoming events.
-3. User Stories
-As an administrator, I want to be able to create new events, specifying details such as title, date, time, location, and description.
-As an administrator, I want the ability to edit event details, including changing event timings, locations, and descriptions.
-As an administrator, I need to delete events that have been canceled or are no longer relevant.
-As a user, I want to view a list of upcoming events along with their details and status.
-As a user, I want to view events based on their status, such as upcoming, postponed, canceled.
+## Introduction
+The Event Management System is a web application designed to facilitate event organization and management. It allows administrators to create, edit, and manage events, while users can view event details for upcoming events. The application aims to simplify event coordination and provide a user-friendly experience for both administrators and users.
 
-4. Benefits
-For Administrators: Streamlined event management, easy event creation and modification, efficient cancellation handling.
-For Users: Clear event information,visibility into event status, and easier event selection.
-5. Differentiators
+## Target Users
+- **Administrators:** Responsible for creating, editing, and managing events. They benefit from efficient event management tools.
+- **Users:** Individuals interested in attending events. They can view event details and benefit from obtaining easy access to upcoming events.
+
+## User Stories
+As an administrator, I want to:
+- Create new events, specifying details such as title, date, time, location, and description.
+- Edit event details, including changing event timings, locations, and descriptions.
+- Delete events that have been canceled or are no longer relevant.
+
+As a user, I want to:
+- View a list of upcoming events along with their details and status.
+- View events based on their status, such as upcoming, postponed, canceled.
+
+## Benefits
+**For Administrators:**
+- Streamlined event management
+- Easy event creation and modification
+- Efficient cancellation handling
+
+**For Users:**
+- Clear event information
+- Visibility into event status
+- Easier event selection
+
+## Differentiators
 While there are various event management applications available, our Event Management System differentiates itself in the following ways:
+- **Simplicity:** The application focuses on simplicity, making it easy for administrators to manage events and users to view them.
+- **User Experience:** Intuitive interfaces provide a seamless experience for both administrators and users.
+- **Status:** Users can see events based on their status, allowing them to view which events are upcoming, postponed, or canceled.
+- **Efficient Cancellation Handling:** Administrators can efficiently manage canceled events, keeping users informed.
 
-Simplicity: The application focuses on simplicity, making it easy for administrators to manage events and users to view them.
-User Experience: Intuitive interfaces provide a seamless experience for both administrators and users.
-Status: Users can see events based on their status, allowing them to view which events are upcoming, postponed or canceled.
-Efficient Cancellation Handling: Administrators can efficiently manage canceled events, keeping users informed.
-6. Functional Requirements
-User Registration and Authentication
-Admin Authentication and Role Management
-Event Creation, Editing, and Deletion
-Event Status Management (Admin)
-Event Listing (User)
-Event Details View (User)
-User-friendly Dashboard (Admin)
-CRUD Operations for Events (Admin)
-7. Non-Functional Requirements
-Security: User data and event information must be stored securely using encryption techniques.
-Performance: The application should be responsive and handle concurrent users without significant performance degradation.
-Usability: User interfaces must be user-friendly, ensuring easy navigation and interaction.
-Scalability: The application should handle increasing numbers of events and users gracefully.
-Accessibility: The application should be accessible to users with disabilities in compliance with accessibility standards.
-8. Conclusion
-The Event Management System offers a user-friendly and efficient solution for event creation and management. Its simplicity, user experience, and status filtering feature set it apart from existing event management software
+## Functional Requirements
+- User Registration and Authentication
+- Admin Authentication and Role Management
+- Event Creation, Editing, and Deletion
+- Event Status Management (Admin)
+- Event Listing (User)
+- Event Details View (User)
+- User-friendly Dashboard (Admin)
+- CRUD Operations for Events (Admin)
+
+## Non-Functional Requirements
+- **Security:** User data and event information must be stored securely using encryption techniques.
+- **Performance:** The application should be responsive and handle concurrent users without significant performance degradation.
+- **Usability:** User interfaces must be user-friendly, ensuring easy navigation and interaction.
+- **Scalability:** The application should handle increasing numbers of events and users gracefully.
+- **Accessibility:** The application should be accessible to users with disabilities in compliance with accessibility standards.
+
+## Conclusion
+The Event Management System offers a user-friendly and efficient solution for event creation and management. Its simplicity, user experience, and status filtering feature set it apart from existing event management software.
+
+
 
 
 ## How to Use the App
