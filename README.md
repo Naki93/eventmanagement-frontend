@@ -249,7 +249,10 @@ MONGO_URI=your_mongodb_uri_here
 
 Deployment
 Separate Deployment
+The App has been deployed on render
 For larger applications or improved scalability, I have deployed the backend and frontend separately. The backend serves as an API server, and the frontend is a standalone application that communicates with the API.
+Therefor I have used this api  in my frontend REACT_APP_API_BASE_URL=http://localhost:5000/auth
+
 
 ### Contributing
 Contributions to Eventify are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
