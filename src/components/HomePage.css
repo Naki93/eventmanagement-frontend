@@ -61,6 +61,20 @@ background-color: black;
         }
          }
 
+    @media screen and (max-width: 440px) {
+  .login-signup{
+    margin-left: 140px;
+    
+  }
+   }
+
+   @media screen and (max-width: 440px) {
+    .navbar-brand , .logo{
+      margin-left: 170px;
+      
+    }
+     }
+
 .bold-text {
         font-weight: normal;
         font-size: 22px; /* Adjust the font size as needed */
