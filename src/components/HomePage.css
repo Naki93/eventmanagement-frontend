@@ -13,10 +13,17 @@
 
   .about-content {
       display: flex;
-      background-color: white;
+      width: 100% ;
+      height: 100vh;
+      position: relative;
+      background-image: url("../images/powder.jpg") ;
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      
       align-items: center;
       padding-top: 40px;
-      
+      padding-bottom: 180px;
     }
 
 .background{
@@ -38,7 +45,21 @@ background-color: black;
       
     }
 
-  
+  @media screen and (max-width: 1088px) {
+      .left-side, .text-content{
+        color: white;
+        padding-top: 90px;
+        margin-right: 12px;
+      }
+       }
+      
+       @media screen and (max-width: 1088px) {
+        .para{
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          font-size: large;
+        }
+         }
 
 .bold-text {
         font-weight: normal;
@@ -48,6 +69,14 @@ background-color: black;
 
 .text-content {
       max-width: 600px;
-      margin-left: 20px
-      
+      margin-left: 60px
+      margin-top: 200px;
+    }
+
+.para{
+      font-weight: bold;
+    }
+    
+    .tag{
+      font-weight: bolder;
     }
