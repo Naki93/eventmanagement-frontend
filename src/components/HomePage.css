@@ -63,14 +63,14 @@ background-color: black;
 
     @media screen and (max-width: 440px) {
   .login-signup{
-    margin-left: 140px;
+    margin-left: 110px;
     
   }
    }
 
    @media screen and (max-width: 440px) {
     .navbar-brand , .logo{
-      margin-left: 170px;
+      margin-left: 140px;
       
     }
      }
